@@ -2,9 +2,21 @@ public class HelloWorld{
 
 public static void main(String args[]){
 
-System.out.println("Hello Test statement");
-
+loadConfiguration();
+processData();
 
 }
+
+private static void loadConfiguration(){
+
+System.out.println("Loading configuration......................")
+}
+
+private static void processData(){
+
+System.out.println("ProcessData......................")
+
+}
+
 
 }
